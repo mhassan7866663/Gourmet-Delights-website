@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Delights</title>
+    <link rel="stylesheet" href="Gourmet Delights.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Gourmet Delights Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#signup">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1>Welcome to <span>Gourmet Delights</span></h1>
+            <p>Experience the finest dining in a cozy, elegant setting.</p>
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="featured-grilled-salmon-recipe.jpg" alt="Grilled Salmon">
+                <h3>Grilled Salmon</h3>
+                <p>Delicious grilled salmon served with a side of steamed vegetables and garlic butter sauce.</p>
+                <span class="price">$25</span>
+            </div>
+            <div class="menu-item">
+                <img src="Burger.jpg" alt="Classic Cheeseburger">
+                <h3>Classic Cheeseburger</h3>
+                <p>Juicy beef patty with melted cheddar, fresh lettuce, tomato, and our special sauce.</p>
+                <span class="price">$15</span>
+            </div>
+            <div class="menu-item">
+                <img src="Quick-Veggie-Pasta-fork.jpg" alt="Vegetarian Pasta">
+                <h3>Vegetarian Pasta</h3>
+                <p>Fresh pasta tossed with seasonal vegetables, olive oil, and a hint of garlic.</p>
+                <span class="price">$18</span>
+            </div>
+            <div class="menu-item">
+                <img src="Chicken Alfredo.jpg" alt="Chicken Alfredo">
+                <h3>Chicken Alfredo</h3>
+                <p>Creamy alfredo sauce served over tender chicken and fettuccine noodles.</p>
+                <span class="price">$22</span>
+            </div>
+            <div class="menu-item">
+                <img src="Caesar Salad.jpg" alt="Caesar Salad">
+                <h3>Caesar Salad</h3>
+                <p>Fresh romaine lettuce with parmesan, croutons, and our signature Caesar dressing.</p>
+                <span class="price">$12</span>
+            </div>
+            <div class="menu-item">
+                <img src="Margherita Pizza.jpg" alt="Margherita Pizza">
+                <h3>Margherita Pizza</h3>
+                <p>Classic pizza topped with fresh mozzarella, basil, and tomatoes.</p>
+                <span class="price">$20</span>
+            </div>
+            <div class="menu-item">
+                <img src="Tiramisu.jpg" alt="Tiramisu">
+                <h3>Tiramisu</h3>
+                <p>Traditional Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cream.</p>
+                <span class="price">$10</span>
+            </div>
+            <div class="menu-item">
+                <img src="Chocolate Lava Cake.jpg" alt="Chocolate Lava Cake">
+                <h3>Chocolate Lava Cake</h3>
+                <p>Warm chocolate cake with a gooey molten center, served with vanilla ice cream.</p>
+                <span class="price">$12</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <img src="restaurant-background.jpg" alt="Restaurant Interior">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>At Gourmet Delights, we offer a unique dining experience with a focus on quality and flavor. Our chefs are passionate about crafting dishes that not only taste delicious but also look stunning. Come dine with us and enjoy an unforgettable meal in a beautiful, welcoming atmosphere.</p>
+                <a href="#about" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        <div class="contact-info">
+            <p><i class="material-icons">location_on</i> 123 Gourmet St, Food City</p>
+            <p><i class="material-icons">phone</i> +123 456 7890</p>
+            <p><i class="material-icons">email</i> contact@gourmetdelights.com</p>
+        </div>
+    </section>
+
+
+    <!-- Signup Section -->
+    <section id="signup" class="signup">
+        <h2>Signup</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="cnic">CNIC:</label>
+                <input type="text" id="cnic" name="cnic" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male"> Male
+                <input type="radio" id="female" name="gender" value="female"> Female
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="image">Upload Image:</label>
+                <input type="file" id="image" name="image" required>
+            </div>
+            <button type="submit" class="btn">Signup</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Gourmet Delights. All rights reserved.</p>
+      
+    </footer>
+</body>
+</html>
